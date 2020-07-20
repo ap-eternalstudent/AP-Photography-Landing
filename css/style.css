@@ -1,7 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed');
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Slab');
-@import url('https://fonts.googleapis.com/css2?family=Oswald');
 
 html { 
     scroll-behavior: smooth; 
@@ -26,6 +24,9 @@ h2{
     font-size: 1.5rem;
     text-transform: capitalize;
     margin: 0;
+}
+h3{
+    font-weight: 900;
 }
 img:first-of-type{
     margin-top: 1rem;
