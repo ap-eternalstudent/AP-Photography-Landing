@@ -8,6 +8,7 @@ html {
 body{
     font-family: 'Josefin Slab', sans-serif;
     margin: 0;
+    padding: 0;
     background: #fff;
     height: auto;
 }
