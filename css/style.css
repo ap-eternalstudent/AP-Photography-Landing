@@ -80,7 +80,7 @@ a:visited{
     align-items: center;
     text-align: center;
     padding-right: 1rem;
-    padding-left: 1rem;
+    /* padding-left: 1rem; */
 }
 
 #landing-text h2{
@@ -175,7 +175,7 @@ footer h3{
         margin: 5rem;
     }
     #landing-text {
-        margin-left: 2rem;
+        margin-top: 4rem;
         height: 60vh;
 
     }
@@ -184,6 +184,8 @@ footer h3{
         max-width: 90vh;
         /* background-position: fixed; */
         background-size: cover;
+        padding: 0rem;
+        margin: 4rem 0rem 4rem 4rem;
 
 
     }
