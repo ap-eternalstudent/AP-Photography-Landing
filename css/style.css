@@ -43,6 +43,11 @@ h3{
 img:first-of-type{
     margin-top: 1rem;
 }
+img:last-of-type {
+    max-width: 50vh;
+    height: auto;
+
+}
 img{
     display: block;
     margin:auto;
@@ -182,12 +187,10 @@ footer h3{
     #landing-image {
         height:60vh;
         max-width: 90vh;
-        /* background-position: fixed; */
         background-size: cover;
         padding: 0rem;
         margin: 4rem 0rem 4rem 4rem;
 
 
     }
-
 }
