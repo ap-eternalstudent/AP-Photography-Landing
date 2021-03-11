@@ -52,22 +52,27 @@ a {
   text-decoration: none;
   color: black;
 }
+a::after {
+  color: black;
+}
+
 p {
   font-weight: 100;
   font-size: 2rem;
 }
 
-a::after {
-  color: black;
-}
 .super-wrapper {
   background-color: rgb(255, 255, 255);
-  /* margin: auto; */
 }
 
 .logo {
   cursor: pointer;
   max-height: 6rem;
+}
+
+.site-navigation {
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .site-navigation ul {
@@ -299,6 +304,10 @@ a::after {
 }
 
 @media screen and (max-width: 999px) {
+  .super-wrapper {
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
   body {
     overflow-x: hidden;
   }
@@ -307,8 +316,6 @@ a::after {
     overflow-y: hidden;
   }
   .menu {
-    /* overflow-x: hidden; */
-
     position: absolute;
     right: 0px;
     height: 50vh;
@@ -352,9 +359,6 @@ a::after {
   }
 }
 @media screen and (max-width: 479px) {
-  html {
-    font-size: 50%;
-  }
   body {
     max-width: 100%;
   }
